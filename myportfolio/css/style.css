@@ -36,9 +36,9 @@
  */
 
 
-@import url("fonts.css");
+@import url("/css/fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
-@import url("/myportfolio/css/micons/micons.css");
+@import url("/css/micons/micons.css");
 :root {
   --background: #000000;
   --secondary-background: #800080;
@@ -1107,32 +1107,15 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 
-header {
-  position: fixed;
-  width: 100%;
-  min-height: 66px;
-  z-index: 600;
-}
-header .row {
-  position: relative;
-  min-height: 66px;
-}
-header .top-bar {
-  display: block;
-  background: #000000;
-  min-width: 100%;
-  min-height: 66px;
-  position: absolute;
-  /* left: 90px; */
-  top: 0;
-}
-header .logo {
+
+
+/* header .logo {
   float: left;
   margin-left: 20px;
   margin-right: 50px;
   margin-top: 25px;
   position: relative;
-}
+} */
 header .logo a {
   display: block;
   margin: 0;
@@ -2330,4 +2313,4 @@ footer .copyright span:last-child::after {
   background: #000000;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
