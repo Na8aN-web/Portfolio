@@ -153,7 +153,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "lora-regular", serif;
+	font-family: "poppins-semibold", serif;
 	font-size: 2rem;
 	line-height: 1.8;
 	color: #888888;
@@ -1030,7 +1030,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #313131;
+	color: #888;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1783,7 +1783,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #FFFFFF;
+	background: black;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -1838,6 +1838,23 @@ header .logo a {
 	font-size: 3.3rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
+}
+.more-links{
+	background-color: white;
+	width: 100px;
+	padding: 5px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.more-links img{
+	padding: 5px;
+}
+.more-links img:hover{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 }
 #portfolio .folio-types {
 	margin: 0;
