@@ -74,7 +74,6 @@ body {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
 }
 
 /**
@@ -156,7 +155,7 @@ p.lead {
 	font-family: "poppins-semibold", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #000;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1030,7 +1029,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #888;
+	color: #000;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1042,6 +1041,31 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	letter-spacing: .4rem;
 }
 
+.section-intro2 {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 3.6rem;
+	position: relative;
+}
+.section-intro2 h1 {
+	font-family: "poppins-semibold", serif;
+	font-size: 3.6rem;
+	color: white;
+	line-height: 1.25;
+	margin-bottom: 1.2rem;
+}
+.section-intro2 p {
+	color: purple;
+	font-size: 1.6rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+}
+.footer-tab p{
+	color: white;
+}
 /**
  * responsive:
  * common styles
@@ -1539,7 +1563,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #000;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1670,7 +1694,7 @@ header .logo a {
 	float: left;
 	width: 35%;
 	padding-right: 90px;
-	text-align: right;
+	text-align: left;
 }
 #resume .timeline-header h3 {
 	margin-bottom: 0;
@@ -1682,6 +1706,7 @@ header .logo a {
 }
 #resume .timeline-content {
 	margin-left: 35%;
+	font-family: "poppins-regular", sans-serif;
 	padding-left: 60px;
 }
 #resume .timeline-content h4 {
