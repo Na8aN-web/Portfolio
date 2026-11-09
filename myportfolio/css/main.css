@@ -1586,7 +1586,7 @@ header .logo a {
 }
 
 .intro-content h5 {
-	color: purple;
+	color: #d58cf0;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -2664,7 +2664,7 @@ header .logo a {
 }
 
 #contact .section-intro h5 {
-	color: purple;
+	color: #d58cf0;
 }
 
 #contact .section-intro p {
@@ -2881,7 +2881,7 @@ header .logo a {
 }
 
 .contact-info h5 {
-	color: purple;
+	color: #d58cf0;
 }
 
 /**
@@ -3081,6 +3081,254 @@ footer .copyright span:last-child::after {
 
 #go-top a:hover {
 	background: #000000;
+}
+
+/**
+ * ===================================================================
+ * site additions
+ *
+ * -------------------------------------------------------------------
+ */
+.section-intro2 h5 {
+	color: #d58cf0;
+	font-size: 1.6rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+}
+
+.section-intro2 p,
+.section-intro2 p.lead {
+	color: rgba(255, 255, 255, 0.75);
+	font-family: "poppins-regular", sans-serif;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.intro-info p.lead {
+	text-align: center;
+}
+
+.footer-tab a {
+	color: #FFFFFF;
+}
+
+.footer-tab a:hover,
+.footer-tab a:focus {
+	color: #d58cf0;
+}
+
+/* skills */
+.about-content h4 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	margin: 3rem 0 1.2rem;
+}
+
+.skill-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .8rem;
+	list-style: none;
+	margin: 0 0 1.5rem;
+	padding: 0;
+}
+
+.skill-tags li {
+	background: #ebebeb;
+	border-radius: 4px;
+	color: #313131;
+	font-family: "poppins-medium", sans-serif;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	margin: 0;
+	padding: .5rem 1.2rem;
+}
+
+/* resume */
+#resume .resume-timeline {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#resume .timeline-block::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+#resume .timeline-block {
+	padding-bottom: 3rem;
+}
+
+#resume .timeline-content ul {
+	list-style: disc;
+	margin: 0 0 1.8rem 1.8rem;
+	padding: 0;
+}
+
+#resume .timeline-content li {
+	margin-bottom: 1rem;
+	padding-left: 0;
+}
+
+/* portfolio */
+.portfolio-subhead {
+	color: #FFFFFF;
+	font-size: 2.4rem;
+	margin: 4rem 0 2.4rem;
+	text-align: center;
+}
+
+.project-feature {
+	background: #151515;
+	border: 1px solid #2c2c2c;
+	border-radius: 8px;
+	display: grid;
+	gap: 3.6rem;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	margin: 0 2rem 6rem;
+	padding: 3rem;
+}
+
+.project-feature-media img {
+	border-radius: 6px;
+	display: block;
+	width: 100%;
+}
+
+.project-feature-body,
+.project-feature-body p,
+.project-feature-body li {
+	color: rgba(255, 255, 255, 0.82);
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.7;
+}
+
+.project-feature-body h3 {
+	color: #FFFFFF;
+	font-size: 2.8rem;
+	margin-bottom: .4rem;
+}
+
+.project-feature-body .project-feature-tagline {
+	color: #d58cf0;
+	margin-bottom: 1.8rem;
+}
+
+.project-feature-body ul:not(.skill-tags) {
+	list-style: disc;
+	margin: 0 0 2rem 1.8rem;
+}
+
+.project-feature-body ul:not(.skill-tags) li {
+	margin-bottom: .6rem;
+	padding-left: 0;
+}
+
+.project-feature-body .skill-tags li {
+	background: #2c2c2c;
+	color: #FFFFFF;
+	font-size: 1.3rem;
+}
+
+.project-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.2rem;
+	margin-top: 2.4rem;
+}
+
+.project-links .button {
+	border: 2px solid #FFFFFF;
+	margin: 0;
+}
+
+.project-links .project-play {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.project-links .project-code {
+	background: transparent;
+	color: #FFFFFF;
+}
+
+.project-links .button:hover,
+.project-links .button:focus {
+	background: #d58cf0;
+	border-color: #d58cf0;
+	color: #000000;
+}
+
+#portfolio .item-wrap {
+	margin: 2rem;
+	overflow: hidden;
+	position: relative;
+}
+
+#portfolio .item-wrap > img {
+	display: block;
+	width: 100%;
+}
+
+#portfolio .more-links {
+	background: #FFFFFF;
+	border-radius: 8px;
+	bottom: 1rem;
+	gap: 1.2rem;
+	left: 1rem;
+	padding: .4rem 1.2rem;
+	transform: translateX(-200%);
+	transition: transform .4s ease-in-out;
+	width: auto;
+}
+
+#portfolio .more-links a {
+	color: #000000;
+	font-size: 2.4rem;
+	line-height: 1.4;
+}
+
+#portfolio .more-links a:hover,
+#portfolio .more-links a:focus {
+	color: purple;
+}
+
+#portfolio .folio-item:hover .more-links,
+#portfolio .folio-item:focus-within .more-links {
+	transform: translateX(0);
+}
+
+#portfolio .folio-item:focus-within .overlay {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#portfolio .folio-item:focus-within .folio-item-cell {
+	left: 0;
+}
+
+@media (hover: none) {
+	#portfolio .more-links {
+		transform: none;
+	}
+}
+
+@media only screen and (max-width:900px) {
+	.project-feature {
+		gap: 2.4rem;
+		grid-template-columns: minmax(0, 1fr);
+		padding: 2rem;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.project-feature {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 /*# sourceMappingURL=main.css.map */
